@@ -1,0 +1,95 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+header p {
+    font-size: 50px;
+    margin: 0;
+}
+
+.iguana-header {
+    background: url(../img/bg-header.jpg);
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    position: relative;
+    height: 348px;
+}
+
+article .texto {
+    position: absolute;
+    top: 76px;
+    left: calc(50vw - 475px);
+    width: 475px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.imagen-iguana img {
+    position: absolute;
+    top: 60px;
+    left: 50vw;
+    width: 399px;
+    height: 237px;
+    margin-left: 60px;
+}
+
+.cafe {
+    background: #1E1A13;
+}
+
+.caracteristicas div {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 50px 0px 60px;
+}
+
+.caracteristicas h1 {
+    padding-top: 75px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#ojo {
+    padding-right: 0px;
+    margin: 0px 10px 0px 0px;
+}
+
+#paz {
+    padding-left: 70px;
+    margin: 0px 0px 0px 120px;
+}
+
+#cambio-color {
+    padding-left: 40px;
+    margin: 0px 0px 0px 140px;
+}
+
+.imagenes img {
+    padding: 60px 0px 60px;
+    width: 316px;
+    height: 202px;
+    margin: 15px;
+}
+
+footer {
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
